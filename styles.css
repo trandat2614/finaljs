@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #007bff;
+}
+.line {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+}
+.navbar-brand {
+  padding-left: 20px;
+  font-size: 20px;
+  color: #f8f9fa;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.sidebar {
+  padding: 15px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.list-group-item {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover,
+.list-group-item.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.main-content {
+  padding: 20px;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.main-content img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
