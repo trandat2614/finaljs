@@ -1,4 +1,4 @@
-const fruit = {
+const fruitData = {
   Kiwis: ["kiwi1.jpg", "kiwi2.jpg", "kiwi3.jpg"],
   Lemons: ["lemon1.jpg", "lemon2.jpg"],
   Strawberries: ["strawberry1.jpg", "strawberry2.jpg", "strawberry3.jpg"],
